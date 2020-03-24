@@ -16,7 +16,7 @@ import { createCustomElement } from '@angular/elements';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent, MyCustomComponent]
+  bootstrap: [MyCustomComponent]
 })
 export class AppModule {
 
